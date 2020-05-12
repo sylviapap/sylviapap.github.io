@@ -2306,7 +2306,7 @@ input, select, textarea {
 			-moz-align-items: -moz-flex-start;
 			-webkit-align-items: -webkit-flex-start;
 			-ms-align-items: -ms-flex-start;
-			align-items: flex-start;
+			align-items: center;
 			-moz-flex-direction: column;
 			-webkit-flex-direction: column;
 			-ms-flex-direction: column;
