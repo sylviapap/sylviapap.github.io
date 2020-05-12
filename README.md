@@ -2,8 +2,8 @@
 
 # Credits
 
-Ethereal by HTML5 UP
-html5up.net | @ajlkn
+Ethereal by HTML5 UP <br>
+html5up.net | @ajlkn <br>
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 
@@ -15,8 +15,10 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 >look and feel, a lightbox gallery, tons of customization options, and, of course, full
 >responsiveness. Hope you dig it :)
 
+<br>
 AJ
 aj@lkn.io | @ajlkn
+<br>
 
 Browsers deal with side-scrolling pages differently to vertically-oriented ones in
 that they require elements (or at the very least, the top-most wrapper element) to
