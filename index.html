@@ -37,8 +37,9 @@
 								<a href="https://github.com/sylviapap" class="icon brands fa-github"><span class="label">GitHub</span></a>
 							</li>
 						</ul>
+						
 						<ul class="actions">
-							<li><a href="#first" class="button primary color1 circle icon solid fa-angle-right">Next</a></li>
+							<li><a href="#nav" class="button primary color1 circle icon solid fa-angle-right">Next</a></li>
 						</ul>
 					</div>
 					<div class="image filtered span-1-75" data-position="25% 25%">
@@ -46,8 +47,40 @@
 					</div>
 				</section>
 
-				<!-- Panel (About Spotlight) -->
-				<section class="panel spotlight medium right" id="first">
+				<!-- Nav Panel -->
+				<section class="panel spotlight" id="nav">
+					<div class="inner">
+						<ul class="grid-icons four connected">							
+							<li>
+								<span class="icon solid fa-globe">
+									<a href="#about"><p>About</p></a>
+								</span>
+							</li>
+							<li>
+								<span class="icon solid fa-code">
+									<a href="#projects"><p>Projects</p></a>
+								</span>
+							</li>
+							<li>
+								<span class="icon solid fa-keyboard">
+									<a href="#blogs"><p>Posts</p></a>
+								</span>
+							</li>
+							<li>
+								<span class="icon solid fa-address-book">
+									<a href="#contact"><p>Contact</p></a>
+								</span>
+							</li>
+						</ul>
+						<a href="#about" class="button primary color1 circle icon solid fa-angle-right center">Next</a>
+					</div>
+					<div class="image filtered tinted" data-position="top left">
+						<img src="images/pic02.jpg" alt="" />
+					</div>
+				</section>
+
+				<!-- Panel (About) -->
+				<section class="panel spotlight medium right" id="about">
 					<div class="content span-5">
 						<h2 class="major">About</h2>
 						<p>I am a recent graduate of Flatiron School's Full Stack Web Development/Software Engineering program</p>
@@ -62,38 +95,129 @@
 				</section>
 
 				<!-- Panel - projects -->
-				<section class="panel" id="projects">
+				<section class="panel color2" id="projects">
 					<div class="intro color2">
 						<h2 class="major">Projects</h2>
-						<p></p>
+						<ul class="grid-icons">
+							<li>
+								<span class="icon solid fas fa-balance-scale">
+								</span>
+							</li>
+							<li>
+								<span class="icon solid fas fa-laptop-medical">
+								</span>
+							</li>
+							<li>
+								<span class="icon solid fa-leaf">
+								</span>
+							</li>
+						</ul>
 					</div>
-					<div class="gallery">
-						<div class="group span-3">
-							<a href="map.png" class="image filtered span-3" data-position="bottom"><img src="map.png" alt="" /></a>
-							<a href="checker.png" class="image filtered span-1-5" data-position="center"><img src="checker.png" alt="" /></a>
-							<a href="racoon-example-3.png" class="image filtered span-1-5" data-position="bottom"><img src="racoon-example-3.png" alt="" /></a>
-						</div>
-						<section class="panel color1-alt">
-							<div class="intro color1">
-								<h2 class="major">Racoon</h2>
-								<p>Coronavirus (COVID-19) self-report tracker and symptom checker</p>
-								<p>Built with React.js, Redux, Thunk, Google Maps Javascript API, Infermedica Symptom Checking API, Ruby on Rails API Backend, JSON Web Tokens, BCrypt, Custom CSS/HTML</p>
-								<a href="https://racoon-corona-app.herokuapp.com/">Live Site</a>
-								<p>Github: <a href="https://github.com/sylviapap/final-project-client">Frontend</a> | <a href="https://github.com/sylviapap/final-project-server">Backend</a></p>
-							</div>
-						</section>
-						<a href="images/gallery/fulls/04.jpg" class="image filtered span-2-5" data-position="top"><img src="images/gallery/thumbs/04.jpg" alt="" /></a>
-						<div class="group span-4-5">
-							<a href="images/gallery/fulls/05.jpg" class="image filtered span-3" data-position="top"><img src="images/gallery/thumbs/05.jpg" alt="" /></a>
-							<a href="images/gallery/fulls/06.jpg" class="image filtered span-1-5" data-position="center"><img src="images/gallery/thumbs/06.jpg" alt="" /></a>
-							<a href="images/gallery/fulls/07.jpg" class="image filtered span-1-5" data-position="bottom"><img src="images/gallery/thumbs/07.jpg" alt="" /></a>
-							<a href="images/gallery/fulls/08.jpg" class="image filtered span-3" data-position="top"><img src="images/gallery/thumbs/08.jpg" alt="" /></a>
-						</div>
-						<a href="images/gallery/fulls/09.jpg" class="image filtered span-2-5" data-position="right"><img src="images/gallery/thumbs/09.jpg" alt="" /></a>
-					</div>
-				</section>
 
-				<!-- Blog Panel (with icons) -->
+					<!-- Project 1 -->
+					<section class="panel color1-alt">
+						<div class="intro color1">
+							<h2 class="major">Racoon</h2>
+							<p>Coronavirus (COVID-19) self-report tracker and symptom checker</p>
+							<p>Built with React.js, Redux, Thunk, Google Maps Javascript API, Infermedica Symptom Checking API, Ruby on Rails API Backend, JSON Web Tokens, BCrypt, Custom CSS/HTML</p>
+							<a href="https://racoon-corona-app.herokuapp.com/">Live Site</a>
+							<p>Github: <a href="https://github.com/sylviapap/final-project-client">Frontend</a> | <a href="https://github.com/sylviapap/final-project-server">Backend</a></p>
+						</div>
+					</section>					
+					<div class="gallery">
+					<div class="group span-3">
+						<a href="my-imgs/map.png" class="image filtered span-3" data-position="bottom"><img src="my-imgs/map.png" alt="" /></a>
+						<a href="my-imgs/checker.png" class="image filtered span-1-5" data-position="center"><img src="my-imgs/checker.png" alt="" /></a>
+						<a href="my-imgs/racoon-example-3.png" class="image filtered span-1-5" data-position="bottom"><img src="my-imgs/racoon-example-3.png" alt="" /></a>
+					</div>
+
+					<!-- Project 2 -->
+
+					<section class="panel color3-alt">
+						<div class="intro color3">
+							<h2 class="major">Subscription Manager</h2>
+							<p>Manage subcriptions to paid services</p>
+							<p>Built with React.js frontend, Ruby on Rails API Backend, JSON Web Tokens, BCrypt, Custom CSS/HTML</p>
+							<p>Github: <a href="https://github.com/sylviapap/client-subscription-app">Frontend</a> | <a href="https://github.com/sylviapap/server-subscription-app">Backend</a></p>
+						</div>
+					</section>
+
+					<div class="group span-3">
+						<a href="my-imgs/subscriber-example-page.png" class="image filtered span-3" data-position="top">
+							<img src="my-imgs/subscriber-example-page.png" alt=""/>
+						</a>
+
+						<a href="my-imgs/subscriber-example-4.png" class="image filtered span-1-5" data-position="center">
+							<img src="my-imgs/subscriber-example-4.png" alt=""/>
+						</a>
+
+						<a href="my-imgs/subscriber-example-1.png" class="image filtered span-1-5" data-position="bottom">
+							<img src="my-imgs/subscriber-example-1.png" alt=""/>
+						</a>
+					</div>
+
+					<!-- Project 3 -->
+
+					<section class="panel color4-alt">
+						<div class="intro color4">
+							<h2 class="major">Whack-a-Corona</h2>
+							<p>Whack-a-Mole style game with virus images</p>
+							<p>Javascript, Rails Backend</p>
+							<a href="https://sylviapap.github.io/kill-a-corona-sample/">Frontend Demo</a>
+							<p>Github: <a href="https://github.com/brookebachman00/kill_a_corona_frontend_js">Frontend</a> | <a href="https://github.com/brookebachman00/kill_a_corona_backend_rails">Backend</a></p>
+						</div>
+					</section>
+
+					<div class="group span-3">
+						<a href="my-imgs/whack-1.png" class="image filtered span-3" data-position="top">
+							<img src="my-imgs/whack-1.png" alt=""/>
+						</a>
+
+						<a href="my-imgs/whack-2.png" class="image filtered span-1-5" data-position="center">
+							<img src="my-imgs/whack-2.png" alt=""/>
+						</a>
+
+						<a href="my-imgs/whack-3.png" class="image filtered span-1-5" data-position="bottom">
+							<img src="my-imgs/whack-3.png" alt=""/>
+						</a>
+					</div>
+
+					<!-- Project 4 -->
+
+					<section class="panel color1-alt">
+						<div class="intro color1">
+							<h2 class="major">Talkr</h2>
+							<p>Translation chat app</p>
+							<p>Ruby on Rails Frontend and Backend</p>
+							<p><a href="https://github.com/austinoso/TalkR">Github</a></p>
+						</div>
+					</section>
+
+					<!-- Project 5 -->
+
+					<section class="panel color4-alt">
+						<div class="intro color4">
+							<h2 class="major">Chatbot</h2>
+							<p>Simple chatbot</p>
+							<p>Javascript, Rails Backend</p>
+							<a href="https://sylviapap.github.io/chatbot/"> Demo</a>
+							<p><a href="https://github.com/sylviapap/chatbot">Github</a></p>
+						</div>
+					</section>
+
+					<!-- Project 6 -->
+
+					<section class="panel color1-alt">
+						<div class="intro color1">
+							<h2 class="major">CLI Symptom Checker</h2>
+							<p>CLI Ruby App</p>
+							<p><a href="https://github.com/sylviapap/ruby-cli-app">Github</a></p>
+						</div>
+					</section>
+
+				</section> <!-- End projects panel -->
+
+				<!-- Blog Panel -->
 				<section class="panel color1" id="blogs">
 					<div class="intro joined">
 						<h2 class="major">Blog Posts</h2>
@@ -101,53 +225,39 @@
 							<li><a class="button primary color1 circle  icon brands fab fa-dev" href="https://dev.to/sylviapap"></a></li>
 						</ul>
 					</div>
-					<div class="inner">
-						<ul class="grid-icons three connected">
-							<li><span class="icon solid fas fa-balance-scale"><span class="label">scale</span></span></li>
-							<li><span class="icon solid fas fa-dove"><span class="label">dove</span></span></li>
-							<li><span class="icon solid fas fa-laptop-medical"><span class="label">medical</span></span></li>
-							<li><span class="icon solid fa-globe"><span class="label">globe</span></span></li>
-							<li><span class="icon solid fa-leaf"><span class="label">leaf</span></span></li>
-							<li><span class="icon solid fa-code"><span class="label">code</span></span></li>
-						</ul>
-					</div>
 				</section>
 				<section class="panel" >
 					<div class="gallery">
 						<div class="group span-4-5">
 							<a href="https://dev.to/sylviapap/the-ruby-enumerable-operator-and-max-vs-maxby-ac6" class="image filtered span-3" data-position="top">
-								<img src="blog1.png" alt="" />
+								<img src="my-imgs/blog1.png" alt="" />
 							</a>
 
 							<a href="https://dev.to/sylviapap/make-a-simple-chatbot-with-javascript-1gc" class="image filtered span-1-5" data-position="bottom">
-								<img src="blog4.png" alt="" />
+								<img src="my-imgs/blog4.png" alt="" />
 							</a>
 
 							<a href="" class="image filtered span-1-5" data-position="center">
-								<img src="blog5.png" alt="" />
+								<img src="my-imgs/blog5.png" alt="" />
 							</a>										
 							
-							<a href="https://dev.to/sylviapap/bcrypt-explained-4k5c" class="image filtered span-3" data-position="top"><img src="blog8.png" alt="" /></a>
+							<a href="https://dev.to/sylviapap/bcrypt-explained-4k5c" class="image filtered span-3" data-position="top"><img src="my-imgs/blog8.png" alt="" /></a>
 						</div>
 						<div class="group span-3">
 							<a href="https://dev.to/sylviapap/mapbox-and-tool-tips-in-react-30ie" class="image filtered span-3" data-position="bottom">
-								<img src="blog6.png" alt="" />
+								<img src="my-imgs/blog6.png" alt="" />
 							</a>
 
-							<a href="https://dev.to/sylviapap/beginner-healthcare-ai-tensorflow-js-4ma1" class="image filtered span-1-5" data-position="center"><img src="blog7.png" alt="" /></a>
+							<a href="https://dev.to/sylviapap/beginner-healthcare-ai-tensorflow-js-4ma1" class="image filtered span-1-5" data-position="center"><img src="my-imgs/blog7.png" alt="" /></a>
 
 							<a href="" class="image filtered span-1-5" data-position="bottom"><img src="" alt="" /></a>
 						</div>
 					</div>
 				</section>
 				<!-- Contact Panel -->
-				<section class="panel color4-alt">
+				<section class="panel color4-alt" id="contact">
 					<div class="intro color4">
 						<h2 class="major">Contact</h2>
-						<p></p>
-					</div>
-					<div class="inner columns divided">
-						<div class="span-1-5">
 							<ul class="contact-icons color1">
 								<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/sylvia-pap/">LinkedIn</a></li>
 								<li class="icon brands fa-github"><a href="https://github.com/sylviapap">GitHub</a></li>
@@ -157,9 +267,10 @@
 
 								<li><a href="#" class="button primary color1 circle icon solid fa-home">Home</a></li>
 							</ul>
-						</div>
 					</div>
 				</section>
+
+
 				<!-- Copyright -->
 				<div class="copyright">
 					&copy; Sylvia Pap 2020 | Design: <a href="https://html5up.net">HTML5 UP</a>
