@@ -796,7 +796,7 @@ input, select, textarea {
 
 		input[type="checkbox"].color3 + label:before,
 		input[type="radio"].color3 + label:before {
-			color: #ffe4b4;
+			color: #ffe3b4cc;
 		}
 
 		input[type="checkbox"].color4 + label:before,
@@ -1398,11 +1398,11 @@ input, select, textarea {
 		}
 
 		ul.contact-icons.color2 > li:before {
-			color: #e37b7c;
+			color: #eb9fa0b0;
 		}
 
 		ul.contact-icons.color3 > li:before {
-			color: #ffe4b4;
+			color: #ffe3b4cc;
 		}
 
 		ul.contact-icons.color4 > li:before {
@@ -1648,7 +1648,7 @@ input, select, textarea {
 			input[type="button"].primary.color2,
 			button.primary.color2,
 			.button.primary.color2 {
-				color: #e37b7c !important;
+				color: #eb9fa0b0 !important;
 			}
 
 			input[type="submit"].primary.color3,
@@ -1656,7 +1656,7 @@ input, select, textarea {
 			input[type="button"].primary.color3,
 			button.primary.color3,
 			.button.primary.color3 {
-				color: #ffe4b4 !important;
+				color: #ffe3b4cc !important;
 			}
 
 			input[type="submit"].primary.color4,
