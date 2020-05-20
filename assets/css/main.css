@@ -1548,10 +1548,10 @@ input, select, textarea {
 		button.icon.circle,
 		.button.icon.circle {
 			position: relative;
-			width: 3.125rem;
-			height: 3.125rem;
-			line-height: 3.125rem;
-			text-indent: 3.125rem;
+			width: 2.5rem;
+			height: 2.5rem;
+			line-height: 2.5rem;
+			text-indent: 2.5rem;
 			border-radius: 100%;
 			overflow: hidden;
 			padding: 0;
@@ -1582,7 +1582,7 @@ input, select, textarea {
 			.button.icon.circle.fa-angle-left:before {
 				position: relative;
 				left: -0.1rem;
-				font-size: 1.75rem;
+				font-size: 1.5rem;
 			}
 
 			input[type="submit"].icon.circle.fa-angle-right:before,
@@ -1592,7 +1592,7 @@ input, select, textarea {
 			.button.icon.circle.fa-angle-right:before {
 				position: relative;
 				left: 0.1rem;
-				font-size: 1.75rem;
+				font-size: 1.5rem;
 			}
 
 		input[type="submit"].fit,
