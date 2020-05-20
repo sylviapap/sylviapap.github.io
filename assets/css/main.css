@@ -2712,7 +2712,7 @@ input, select, textarea {
 		}
 
 		.panel.color0 {
-			background-image: url("../../images/overlay.png"), linear-gradient(45deg, #726193 20%, #e37b7c 60%, #ffe4b4);
+			background-image: url("../../images/overlay.png"), linear-gradient(45deg, #ccafac 20%, #bebbcc 50%, #9ba6c9 80%, #8d95b8);
 			background-size: 128px 128px, auto;
 		}
 
