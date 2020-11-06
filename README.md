@@ -2,10 +2,6 @@
 
 This was my first attempt at a personal site. I am only keeping it here for fun. My real/main personal site can be found at https://sylviapap.com/ :)
 
-> Ethereal by HTML5 UP
-
-> html5up.net | @ajlkn
+> Ethereal by HTML5 UP| html5up.net | @ajlkn | aj@lkn.io
 
 > Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-
-> aj@lkn.io
